@@ -3,6 +3,7 @@ array = list(map(int, input().strip().split()))[:n]
 
 
 def heapify(arr,n,i):
+    #find max between root and childrens
     largest = i
     l=2*i+1
     r=2*i+2
