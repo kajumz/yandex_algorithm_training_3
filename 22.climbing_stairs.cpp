@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
- 
-// A recursive function used by countWays
+
 int countWaysUtil(int n, int m)
 {
     int res[n];
